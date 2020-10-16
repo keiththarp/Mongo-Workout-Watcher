@@ -18,12 +18,12 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // all api routes
-// const apiRoutes = require("./routes/api-routes");
-// app.use("/api", apiRoutes);
+const apiRoutes = require("./routes/api-routes");
+app.use("/api", apiRoutes);
 
 // all html routes
-// const htmlRoutes = require("./routes/html-routes");
-// app.use("", htmlRoutes);
+const htmlRoutes = require("./routes/html-routes");
+app.use("", htmlRoutes);
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mongo-workout-watcher", {
   useNewUrlParser: true,
