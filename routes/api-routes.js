@@ -38,7 +38,7 @@ router.post("/workouts", ({ body }, res) => {
 router.put('/workouts/:id', (req, res) => {
   db.findByIdAndUpdate(
     req.params.id,
-    { $push: { exercise: req.body } },
+    { $push: { exercises: req.body } },
     { new: true }
   )
     .then(workout => {
