@@ -3,7 +3,7 @@ const db = require("../models/workout-models");
 const router = require("express").Router();
 
 router.get("/workouts", (req, res) => {
-  db.find({})
+  db.find({}).sort({ day: -1 }).limit(1)
     .then(workouts => {
       res.json(workouts);
     })
