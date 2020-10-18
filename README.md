@@ -1,61 +1,50 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Mongo-Workout-Watcher
 An easy to use workout tracker that employs NoSQL to store user data.
 
+Mongo Workout Watcher is a personal fitness tracker that helps users record workout and visualize past performance.
 
-# Unit 17 Nosql Homework: Workout Tracker
+[You can view the deployed app here:](https://mongo-workout-watcher.herokuapp.com/ "View Mongo Workout Watcher") https://mongo-workout-watcher.herokuapp.com/
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+![Mongo Workout Watcher screen shot](./public/assets/images/mongo-screen-shot.png)
 
-## User Story
+## Table of Contents
+- [Usage](#How-to-use)
+- [Technologies](#Languages-and-Lessons)
+- [Contribute](#How-to-contribute)
+- [Questions](#Developed-by)
+- [Credits](#Acknowledgments-and-Credits)
+- [License](#Licensed-under-MIT)
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+## How to use
+The app is very easy to use. Start by creating a workout, complete the fields then click "Add Exercise" button. View the dashboard by clicking "Fitness Tracker Dashboard" text at the top left.
 
-## Business Context
+## Technologies
+ - Node.js
+ - Express
+ - MongoDB/Atlas
+ - Mongoose
+ - Heroku
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+The exercises in this project focussed on learning NoSQL with Mongo and interacting with the database using Mongoose and Node. Other vital tech used included Express, Heroku Deployment. This project also had a hidden lesson of needing to read/learn/and work within someone elses existing code.
 
-## Acceptance Criteria
+## How to contribute
+If anyone would like to improve the app by contributing, they're welcome to fork it and submit a pull request on [GitHub](https://github.com/keiththarp/Mongo-Workout-Watcher).
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+## Developed by
+- [Keith Tharp](https://github.com/keiththarp)
 
-The user should be able to:
+Please reach out with questions at:
+  - keithstharp@gmail.com
 
-  * Add exercises to a previous workout plan.
+Find more of Keith Tharp's work at:
+  - https://github.com/keiththarp
 
-  * Add new exercises to a new workout plan.
+## Acknowledgments and Credits
+Thank you to all my fellow students and study groups that helped and supported with this homework project!
+Special thanks to [Bobby](https://github.com/rhoffman103) & [Mike](https://github.com/FearMichael) for helping me get over the final hurdle!
 
-  * View the combined weight of multiple exercises on the `stats` page.
+## Licensed under MIT
+[Click here for more information on the MIT license.](https://choosealicense.com/licenses/mit/)
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
-
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
-
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
+![Mongo Workout Watcher screen shot](./public/assets/images/mongo-screen-shot-1.png)

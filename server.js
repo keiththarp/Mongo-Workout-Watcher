@@ -25,7 +25,7 @@ app.use("/api", apiRoutes);
 const htmlRoutes = require("./routes/html-routes");
 app.use("", htmlRoutes);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mongo-workout-watcher", {
+mongoose.connect(process.env.MONGODB_URI || "", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
